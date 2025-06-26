@@ -22,7 +22,7 @@ export const config = {
   novalnetPrivateKey: process.env.NOVALNET_PRIVATE_KEY || '',
   novalnetTariff: process.env.NOVALNET_TARIFF_KEY || '',
   novalnetWebhookURL: process.env.NOVALNET_WEBHOOK_URL || '',
-  novalnetInvoceAction: process.env.Novalnet_INVOICE_ACTION || ''
+  novalnetInvoceAction: process.env.NOVALNET_INVOICE_ACTION || ''
   
   // Payment Providers config
   returnUrl: process.env.RETURN_URL,
