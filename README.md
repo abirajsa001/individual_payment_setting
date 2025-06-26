@@ -1,1 +1,1 @@
-# individual_payment
+# Individual-Payment
