@@ -2,7 +2,7 @@ deployAs:
   - name: enabler
     applicationType: assets
   - name: invoice
-    applicationType: service
+    applicationType: event
     endpoint: /invoice
     configuration:
       standardConfiguration:
