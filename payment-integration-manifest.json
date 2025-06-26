@@ -1,5 +1,5 @@
 {
-  "name": "individual-payment",
+  "name": "individual-payment-setting",
   "version": "1.0.0",
   "description": "This is a custom payment integration",
   "endpoint": "https://novalnet-payment.vercel.app/payment-handler",
