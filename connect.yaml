@@ -6,9 +6,9 @@ deployAs:
     endpoint: /invoice
     configuration:
       standardConfiguration:
-	- key: NOVALNET_INVOICE_ACTION
-	  description: Novalnet unique identifier.
-	  required: true
+        - key: INVOICE_ACTION
+          description: Novalnet unique identifier.
+          required: true
 	- key: CTP_PROJECT_KEY
 	  description: commercetools project key
 	  required: true
