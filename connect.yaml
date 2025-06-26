@@ -7,7 +7,7 @@ deployAs:
     endpoint: /invoice
     configuration:
       standardConfiguration:
-        - key: INVOICE_ACTION
+        - key: NOVALNET_INVOICE_ACTION
           description: Novalnet unique identifier.
           required: true
 
