@@ -9,16 +9,16 @@ deployAs:
         - key: NOVALNET_INVOICE_ACTION
           description: Novalnet unique identifier.
           required: true
-	- key: CTP_PROJECT_KEY
-	  description: commercetools project key.
-	  required: true
-	- key: CTP_CLIENT_ID
-	  description: commercetools client ID.
-	  required: true
+        - key: CTP_PROJECT_KEY
+          description: commercetools project key
+          required: true
+        - key: CTP_CLIENT_ID
+          description: commercetools client ID
+          required: true
       securedConfiguration:
-	- key: CTP_CLIENT_SECRET
-	  description: commercetools client secret.
-	  required: true
+        - key: CTP_CLIENT_SECRET
+          description: commercetools client secret
+          required: true
   - name: processor
     applicationType: service
     endpoint: /
