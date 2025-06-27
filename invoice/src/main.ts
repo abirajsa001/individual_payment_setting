@@ -1,4 +1,5 @@
 import * as dotenv from 'dotenv';
+console.log('Invoice microservice is running!');
 dotenv.config();
 
 import { setupFastify } from './server/server';
